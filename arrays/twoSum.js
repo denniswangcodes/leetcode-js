@@ -7,7 +7,7 @@ function twoSum(nums, target) {
     if (map.hasOwnProperty(complement)) {
       return [map[complement], i];
     }
-
+    
     map[nums[i]] = i;
   }
 
