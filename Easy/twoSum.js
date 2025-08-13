@@ -1,7 +1,7 @@
 // Iterate over each index i in the array
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
 function twoSumBruteForce(nums, target) {
-  // Time Complexity: O(n^2)
-  // Space Complexity: O(1)
 
   // Outer loop to pick the first number
   for (let i = 0; i < nums.length; i++) {
@@ -20,9 +20,9 @@ function twoSumBruteForce(nums, target) {
 }
 
 // Use a hash map to track seen numbers and their indices
+// // Time Complexity: O(n)
+// Space Complexity: O(n)
 function twoSum(nums, target) {
-  // Time Complexity: O(n)
-  // Space Complexity: O(n)
 
   // Initialize empty hash map to store number -> index
   const map = {};
