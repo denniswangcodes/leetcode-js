@@ -1,3 +1,6 @@
+// sort array O(nlogn) and use two pointer to save time On^2 and space O(1)
+
+
 var threeSum = function(nums) {
   nums.sort((a, b) => a - b);         // 1) sort ascending
   const n = nums.length;
